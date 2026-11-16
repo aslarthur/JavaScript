@@ -19,16 +19,10 @@
         <h1>Olá, mundo!</h1>
         <p>Já me livrei da maldição</p>
         <script>
-            /*window.alert: A janela alerta, mostra*/
-            window.alert("Minha primeira mensagem");
-
-
-            /*window.confirm: A janela pede a confirmação de algo*/ 
-            window.confirm("Está gostando de javascript? ");
-
-
-            /*window.prompt: prompt é como se fosse um input em python, então a janela pede uma entrada*/
-            window.prompt("Digite seu nome? ");
+           let nome = window.prompt("Digite seu nome? ");
+           nome += " NEYMA?"
+           window.alert("É um grande prazer em te conhecer, " + nome) // concatenação
+           
         </script>
     </body>
 </html>
